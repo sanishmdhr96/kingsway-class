@@ -1,13 +1,14 @@
 /**
  * Switch case
  */
+
 let dataPack = prompt('Which data pack would you like to use')
 
 switch (dataPack) {
     //if(dataPack === "Unlimited 5G")
     case 1:
         alert("You have received unlimited 5g data for 1 day");
-        return;
+        break;
 
     case "Student Pack":
         alert("You have received student pack for 1 day");
